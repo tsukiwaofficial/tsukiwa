@@ -1,12 +1,10 @@
 ---
 name: Bug report
 about: Report a bug to help tsukiwa improve!
-title: "[BUG] Bug name"
+title: "Bug name"
 labels: "bug"
 assignees: ""
 ---
-
-# Bug name
 
 > [!WARNING]
 >
