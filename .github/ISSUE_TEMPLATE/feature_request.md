@@ -1,12 +1,10 @@
 ---
 name: Feature request
 about: Add or request a feature
-title: "[FEATURE] Feature name"
+title: "Feature name"
 labels: "feature"
 assignees: ""
 ---
-
-# Feature name
 
 > [!NOTE]
 >
