@@ -8,20 +8,17 @@ release:
 - head-branch: release
 
 chore:
-- head-branch: chore
+- head-branch: 
+  - chore
+  - refactor
 
 ui/ux:
 - changed-files:
-  - any-glob-to-any-file:
-    - src/components/**
-    - src/styles/**
-    - src/assets/**
-    - public/**
-    - static/**
+  - any-glob-to-any-file: src/frontend/**
 
 server: 
 - changed-files:
-  - any-glob-to-any-file: src/firebase/**
+  - any-glob-to-any-file: src/backend/**
 
 devops:
 - head-branch: release
