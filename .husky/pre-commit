@@ -1,1 +1,16 @@
+#!/usr/bin/env sh
+
+# Branches to restrict commits
+RESTRICTED_BRANCH="main"
+
+branch=$(git rev-parse --abbrev-ref HEAD)
+
+if [ "$branch" = "$RESTRICTED_BRANCH" ]; then
+  echo ""
+  echo "COMMIT REJECTED: Direct commit to '$RESTRICTED_BRANCH' branch is forbidden."
+  echo "Please create a new branch (e.g., 'feat/my-new-branch')."
+  echo ""
+  exit 1
+fi
+
 pnpm run pre-commit
